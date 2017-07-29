@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-10000.times do
+1000000.times do
   Product.create!(
     name: Faker::Name.name,
     description: Faker::Lorem.paragraph(2)
