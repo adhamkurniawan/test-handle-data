@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'faker'
-gem 'kaminari'
+gem 'will_paginate'
 
 group :development, :test do
   gem 'sqlite3'
